@@ -6,7 +6,7 @@ public class Part_1 {
 
     public static void printArray(int[] array, int i) {
         // It checks if index i is equal to the length of the array.
-        // In turn, if it is equal, then the program will stop the recursion
+
         if (i == array.length) {
             return;
         }
