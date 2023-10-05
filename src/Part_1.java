@@ -6,13 +6,10 @@ public class Part_1 {
 
     public static void printArray(int[] array, int i) {
         // It checks if index i is equal to the length of the array.
-
-        if (i == array.length) {
+        if (i >= array.length) {
             return;
         }
-
         System.out.print(array[i] + " ");  // Prints current element with index i
-
         printArray(array, i + 1);        // Recursion to print the next element
     }
 }
